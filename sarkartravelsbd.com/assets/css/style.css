@@ -462,8 +462,8 @@ header {
           font-size: .85rem; }
         .top-packages .pack-row .pac-col .packdetail .daydet b {
           float: right;
-          font-size: 1.4rem;
-          color: #08703a; }
+          font-size: 2.4rem;
+          color: #0B9745; }
       .top-packages .pack-row .pac-col .packdetail .eview-row {
         padding-top: 5px; }
         .top-packages .pack-row .pac-col .packdetail .eview-row ul li {
@@ -749,6 +749,11 @@ section#team .section-heading {
   color: #EB1019;
   font-weight: bold;
 }
+section#packages .section-heading {
+  color: #EB1019;
+  font-weight: bold;
+}
+
 .teamSpan{
   color: #08703A;
 }
@@ -758,4 +763,18 @@ section#team .section-heading {
 }
 .destinationSpan{
   color: #08703A;
+}
+
+.image-container {
+  display: inline-block; /* Ensures the container only takes up as much space as the image */
+  overflow: hidden; /* Hides the part of the image that overflows the container */
+}
+
+.image-container img {
+  display: block; /* Removes any extra space below the image */
+  transition: transform 0.3s ease; /* Smooth transition for scaling effect */
+}
+
+.image-container:hover img {
+  transform: scale(1.2); /* Scales the image to 110% on hover */
 }
