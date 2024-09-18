@@ -768,6 +768,7 @@ section#packages .section-heading {
 .image-container {
   display: inline-block; /* Ensures the container only takes up as much space as the image */
   overflow: hidden; /* Hides the part of the image that overflows the container */
+  position: relative;
 }
 
 .image-container img {
@@ -777,4 +778,37 @@ section#packages .section-heading {
 
 .image-container:hover img {
   transform: scale(1.2); /* Scales the image to 110% on hover */
+}
+
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: rgba(9, 10, 10, 0.5); 
+  color: white; 
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+
+.relativeOverlay{
+  position: relative;
+}
+
+.thailand{
+  font-weight: bold;
+  /* color: #EB1019; */
 }
