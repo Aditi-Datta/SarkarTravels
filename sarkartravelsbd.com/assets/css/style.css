@@ -807,8 +807,11 @@ section#packages .section-heading {
 .relativeOverlay{
   position: relative;
 }
-
 .thailand{
   font-weight: bold;
+  /* text-align: center; */
   /* color: #EB1019; */
+}
+.bannerCSS{
+  margin-top: 61px;
 }
