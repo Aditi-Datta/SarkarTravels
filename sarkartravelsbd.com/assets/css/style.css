@@ -815,3 +815,42 @@ section#packages .section-heading {
 .bannerCSS{
   margin-top: 61px;
 }
+.video-container {
+  background: #fff;
+  /* padding: 20px; */
+  /* border-radius: 8px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* max-width: 600px; */
+  width: 100%;
+  height: 100%;
+  
+}
+video {
+  width: 100%;
+  height: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 12%;
+}
+
+.contactForm {
+  width: 50%;
+  margin-bottom: 10% ;
+  /* background-color: #0a1b2c; */
+}
+.form-group.input{
+  width: 50vw;
+}
+
+.ContactUsText{
+  margin-bottom: 20px;
+  text-align: center;
+  color: #EB1019;
+  /* color: white; */
+}
+.submitBtn{
+  background-color: #08703A;
+  color: white;
+  border-radius: 30px;
+  padding: 8px 19px;
+}
