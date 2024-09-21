@@ -843,14 +843,36 @@ video {
 }
 
 .ContactUsText{
-  margin-bottom: 20px;
+  margin-bottom: 10%;
   text-align: center;
-  color: #EB1019;
+  color: #eb1047;
   /* color: white; */
 }
 .submitBtn{
-  background-color: #08703A;
+  /* background-color: #08703A; */
+  background-color: #eb1047;
+  width: 100%;
   color: white;
   border-radius: 30px;
   padding: 8px 19px;
+}
+.addBackground {
+  background-color: #eef3f1;
+  padding: 70px 50px;
+  /* gap: 5; */
+}
+.contactFormBackground{
+  background-color: #343a40;
+  padding: 30px 50px;
+  margin-top: -3%;
+  
+}
+.IconColor{
+  color: #eb1047;
+}
+.addcolCard{
+
+  border: none;
+  box-shadow: 0px 6px 4.7px 0.3px rgba(0, 0, 0, 0.2);
+  
 }
