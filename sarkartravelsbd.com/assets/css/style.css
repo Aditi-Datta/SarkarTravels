@@ -867,11 +867,11 @@ video {
 .contactFormBackground{
   /* background-color: #343a40; */
   padding: 30px 50px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  
+   */
   /* margin-top: -3%; */
   
 }
