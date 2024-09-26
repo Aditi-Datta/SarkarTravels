@@ -693,7 +693,10 @@ header {
 
 .our-team .team-row .single-usr {
   box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border: 2px solid #191b1d; /* Change border color here */
+    /* border-radius: 8px; Rounded corners */
+}
 
 .our-team .team-row .single-usr img {
   width: 100%; }
@@ -834,7 +837,7 @@ video {
 }
 
 .contactForm {
-  width: 70%;
+  width: 90%;
   
   margin-bottom: 10% ;
   /* background-color:  #ed1c24; */
@@ -852,8 +855,9 @@ video {
   /* color: white; */
 }
 .submitBtn{
-  /* background-color: #08703A; */
-  background-color: #0B9444 ;
+  background-color: #08703A;
+  /* background-color: #008080 ; */
+  /* background-color: #EB1019 ; */
   width: 100%;
   color: white;
   border-radius: 30px;
@@ -861,11 +865,12 @@ video {
 }
 .addBackground {
   /* background-color: #eef3f1; */
-  padding: 70px 50px;
+  /* padding: 70px 50px; */
+  align-items: stretch;
   /* gap: 5; */
 }
 .contactFormBackground{
-  /* background-color: #343a40; */
+  background-color: #f5f8fb;
   padding: 30px 50px;
   /* display: flex;
   justify-content: center;
@@ -876,21 +881,29 @@ video {
   
 }
 .IconColor{
-  color: #eb1047;
+  color: #EB1019;
   
 }
 .addcolCard{
   /* margin-right : 1%; */
   /* padding-right: 5%; */
   padding: 20px 20px ;
+    display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* Evenly distribute space */
   /* border:  ; */
-  background-color:  #0B9444;
+  /* background-color: #008080; */
+  background-color: #08703A;
 
   /* box-shadow: 0px 6px 4.7px 0.3px rgba(0, 0, 0, 0.2); */
   
 }
 .cardDesign{
-  box-shadow: 0px 6px 4.7px 0.3px rgba(0, 0, 0, 0.8);
+  /* box-shadow: 0px 6px 4.7px 0.3px rgba(0, 0, 0, 0.8); */
+  box-shadow: 6px 2px 6px 6px rgba(0, 0, 0, 0.3);
+  /* background-color: #008080; */
+  background-color: #08703A;
   padding: 20px 70px;
   margin-bottom: 20px;
   color: white;
@@ -903,5 +916,29 @@ video {
   /* background-color: #0B9444 ; */
 }
 .h4Color{
-  color: white;
+  color: #f5eeee;
 }
+
+
+.overlayText:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+.overlayText {
+  position: relative; /* Absolute positioning */
+  top: 0; /* Align to top */
+  left: 0; /* Align to left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(218, 206, 206, 0.7); /* Semi-transparent background */
+  color: white; /* Text color */
+  display: flex; /* Flexbox for centering */
+  flex-direction: column; /* Vertical stacking */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s; /* Fade effect */
+}
+.single-usr:hover .overlayText {
+  opacity: 1; /* Show overlay on hover */
+}
+
