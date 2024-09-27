@@ -703,14 +703,15 @@ header {
 
 .our-team .team-row .single-usr .det-o {
   padding: 20px;
-  background-color: #0363b0; }
+  background-color: #EB1019; }
 
 .our-team .team-row .single-usr .det-o h4 {
   color: #FFF;
   margin-bottom: 0px; }
 
 .our-team .team-row .single-usr .det-o i {
-  color: #FFF; }
+  color: #2f0707;
+ }
 
 /*# sourceMappingURL=style.css.map */
 
@@ -722,7 +723,8 @@ header {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.5rem solid #EB1019;
+  /* border: 0.5rem solid rgba(0, 0, 0, 0.1); */
 }
 
 .team-member h4,
