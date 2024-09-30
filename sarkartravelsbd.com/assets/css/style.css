@@ -960,4 +960,6 @@ video {
 .single-usr:hover .overlayText {
   opacity: 1; /* Show overlay on hover */
 }
-
+.phnText {
+  text-align: center;
+}
