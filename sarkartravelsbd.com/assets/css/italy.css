@@ -18,3 +18,61 @@
     padding-top: 19%;
     
 }
+
+
+
+
+
+
+
+
+
+.card-right {
+  height: 120px !important;
+  background-color: #FFFFFF!important;
+  /* Light background */
+  border-radius: 10px;
+  /* Rounded corners */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition on hover */
+  cursor: pointer;
+}
+
+.card-right:hover {
+  transform: translateY(-5px);
+  /* Slight hover lift */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Deeper shadow on hover */
+}
+
+.card-right img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensure the image fits nicely */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* Rounded corners for the image */
+}
+
+.card-right .card-body {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-right .card-text {
+  font-size: 14px;
+  color: #333;
+  /* Text color */
+  font-weight: 500;
+  margin: 0;
+}
