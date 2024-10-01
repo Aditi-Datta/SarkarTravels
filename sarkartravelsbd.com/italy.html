@@ -74,13 +74,13 @@
             </div>
         </header>
 
-        <div class="container-fluid" style="height: 1200px; max-width: 1200px; margin: auto;">
-            <div class="row" style="height: 100%;">
+        <div class="container-fluid italyContainer " >
+            <div class="row rowStyle">
                 <!-- Left Side: Full view -->
-                <div class="col-8" style="height: 80%;">
-                    <div class="card italybanner" style="height: 100%;">
+                <div class="col-8 rowStyle ">
+                    <div class="card italybanner " >
                         <img id="mainImage" src="assets/images/destination/ItalyP1.jpg" class="cardImageStyle"
-                            alt="Cinque Terre" style="width: 100%; height: 100%; object-fit: cover;">
+                            alt="Cinque Terre" >
                         <div class="card-body">
                             <p id="mainDescription" class="card-text">
                                 Visiting Cinque Terre was like stepping into a vibrant postcard. The five
@@ -92,42 +92,44 @@
                 </div>
 
                 <!-- Right Side: Small cards -->
-                <div class="col-4"
-                    style="display: flex; flex-direction: column; gap: 10px; height: 100%; margin-top: 180px;">
+                <div class="col-4 rightSideCol"
+                    >
   
  
                     <div class="card-right"
-                        onclick="showFullView('assets/images/destination/ItalyP1.jpg', 'Lake Como, Italy', 'Lake Como is known for its dramatic scenery, with mountains and charming towns along the shore.')">
-                        <div style="display: flex; align-items: center; height: 100%; overflow: hidden;">
+                        onclick="showFullView('assets/images/destination/ItalyP1.jpg', 'Lake Como, Italy', 
+                        'Lake Como is known for its dramatic scenery, with mountains and charming towns along the shore.'
+                        )">
+                        <div class="rightColInd" >
                             <img src="assets/images/destination/ItalyP1.jpg" class="cardImageStyle" alt="Lake Como"
-                                style="width: 40%; height: 100px; object-fit: cover;">
-                            <div class="card-body"
-                                style="flex: 1; display: flex; align-items: center; justify-content: center; height: 100%;">
-                                <p class="card-text" style="text-align: center;">Lake Como, Italy - Dramatic scenery,
+                                >
+                            <div class="card-body rightCardCol"
+                               >
+                                <p class="card-text text-center" >Lake Como, Italy - Dramatic scenery,
                                     mountains...</p>
                             </div>
                         </div>
                     </div>
                     <div class="card-right"
                         onclick="showFullView('assets/images/destination/ItalyP2.jpg', 'Lake Como, Italy', 'Lake Como is known for its dramatic scenery, with mountains and charming towns along the shore.')">
-                        <div style="display: flex; align-items: center; height: 100%; overflow: hidden;">
+                        <div class="rightColInd">
                             <img src="assets/images/destination/ItalyP2.jpg" class="cardImageStyle" alt="Lake Como"
-                                style="width: 40%; height: 100px; object-fit: cover;">
+                                >
                             <div class="card-body"
-                                style="flex: 1; display: flex; align-items: center; justify-content: center; height: 100%;">
-                                <p class="card-text" style="text-align: center;">Lake Como, Italy - Dramatic scenery,
+                                >
+                                <p class="card-text text-center">Lake Como, Italy - Dramatic scenery,
                                     mountains...</p>
                             </div>
                         </div>
                     </div>
                     <div class="card-right"
                         onclick="showFullView('assets/images/destination/ItalyP3.jpg', 'Lake Como, Italy', 'Lake Como is known for its dramatic scenery, with mountains and charming towns along the shore.')">
-                        <div style="display: flex; align-items: center; height: 100%; overflow: hidden;">
+                        <div class="rightColInd">
                             <img src="assets/images/destination/ItalyP3.jpg" class="cardImageStyle" alt="Lake Como"
-                                style="width: 40%; height: 100px; object-fit: cover;">
+                                >
                             <div class="card-body"
-                                style="flex: 1; display: flex; align-items: center; justify-content: center; height: 100%;">
-                                <p class="card-text" style="text-align: center;">Lake Como, Italy - Dramatic scenery,
+                                >
+                                <p class="card-text text-center" >Lake Como, Italy - Dramatic scenery,
                                     mountains...</p>
                             </div>
                         </div>
@@ -135,12 +137,12 @@
 
                     <div class="card-right"
                         onclick="showFullView('assets/images/destination/ItalyP4.jpg', 'Tuscany, Italy', 'The rolling hills of Tuscany are dotted with vineyards and ancient towns, offering a picturesque escape.')">
-                        <div style="display: flex; align-items: center; height: 100%; overflow: hidden;">
+                        <div class="rightColInd">
                             <img src="assets/images/destination/ItalyP4.jpg" class="cardImageStyle" alt="Tuscany"
-                                style="width: 40%; height: 100px; object-fit: cover;">
+                                >
                             <div class="card-body"
-                                style="flex: 1; display: flex; align-items: center; justify-content: center; height: 100%;">
-                                <p class="card-text" style="text-align: center;">Tuscany, Italy - Rolling hills,
+                               >
+                                <p class="card-text text-center" >Tuscany, Italy - Rolling hills,
                                     vineyards...</p>
                             </div>
                         </div>
@@ -148,12 +150,12 @@
 
                     <div class="card-right"
                         onclick="showFullView('assets/images/destination/ItalyP5.jpg', 'Venice, Italy', 'Venice is famous for its canals, stunning architecture, and rich history that captivates every visitor.')">
-                        <div style="display: flex; align-items: center; height: 100%; overflow: hidden;">
+                        <div class="rightColInd">
                             <img src="assets/images/destination/ItalyP5.jpg" class="cardImageStyle" alt="Venice"
-                                style="width: 40%; height: 100px; object-fit: cover;">
+                                >
                             <div class="card-body"
-                                style="flex: 1; display: flex; align-items: center; justify-content: center; height: 100%;">
-                                <p class="card-text" style="text-align: center;">Venice, Italy - Famous for canals,
+                                >
+                                <p class="card-text text-center" >Venice, Italy - Famous for canals,
                                     architecture...</p>
                             </div>
                         </div>
@@ -162,6 +164,16 @@
 
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+
 
         <!-- JavaScript to handle card click and full view update -->
         <script>
