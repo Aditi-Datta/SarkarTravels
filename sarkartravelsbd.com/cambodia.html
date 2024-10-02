@@ -1,14 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarkar Travels || Cambodia</title>
+    <title>Sarkar Travels || Cambodia </title>
+    <link rel="icon" href="assets/images/SARKAR-TRAVELS-LOGO-1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/italy.css" />
 </head>
+
 <body>
-    
-    <h1>Cambodia</h1>
+
+    <!----- ############# Header ################ ----->
+
+    <header class="container-fluid">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 d-none d-sm-block contacthd">
+                        <p><a href=""> <i class="fas fa-home"></i></a> &nbsp;&nbsp; <span>|</span>
+                            &nbsp;&nbsp; <i class="fas fa-phone"></i><a href="">+8801711600693</a></p>
+                    </div>
+                    <div class="col-sm-8">
+                        <ul class="social-login">
+                            <li>
+                                <a href="https://www.facebook.com/sarkertravelsbd71/" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <i class="fab fa-twitter-square"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin"></i>
+                            </li>
+                        </ul>
+                        <ul class="email">
+                            <li><i class="fa fa-envelope"></i>sarkartravels693@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu-jk" class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-md-3">
+                        <img src="assets/images/SARKAR-TRAVELS-LOGO-1.png" alt="" width="70%">
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i
+                                class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="navs d-none d-md-block col-md-9">
+                        <ul>
+                            <li><a href="#packages">Packages</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#destination">Destinations</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#contactus">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid italyContainer ">
+        <div class="row rowStyle">
+            <!-- Left Side: Full view -->
+            <div class="col-8 rowStyle ">
+                <div class="card italybanner ">
+                    <img id="mainImage" src="assets/images/destination/ItalyP1.jpg" class="cardImageStyle"
+                        alt="Cinque Terre">
+                    <div class="card-body">
+                        <p id="mainDescription" class="card-text">
+                            Cinque Terre is a breathtaking destination that enchants visitors with its dramatic coastal
+                            scenery and vibrant villages. Nestled along the Ligurian Sea, this UNESCO World Heritage
+                            site offers stunning views of terraced vineyards and picturesque homes clinging to rugged
+                            cliffs. Each village—Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore—has its own
+                            unique character, filled with charming streets, colorful buildings, and delightful local
+                            cuisine. Beyond its visual allure, Cinque Terre boasts a network of scenic hiking trails
+                            that connect the villages, allowing visitors to immerse themselves in nature while enjoying
+                            panoramic ocean vistas. Whether you’re exploring the quaint shops, savoring fresh seafood,
+                            or simply soaking in the sunset, Cinque Terre is a destination that promises unforgettable
+                            memories and a sense of serenity in every corner.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Small cards -->
+            <div class="col-4 rightSideCol">
+
+
+                <div class="card-right" onclick="showFullView('assets/images/destination/ItalyP1.jpg', 'Cinque Terre, Italy', 
+                        'Cinque Terre is a breathtaking destination that enchants visitors with its dramatic coastal scenery and vibrant villages. Nestled along the Ligurian Sea, this UNESCO World Heritage site offers stunning views of terraced vineyards and picturesque homes clinging to rugged cliffs. Each village—Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore—has its own unique character, filled with charming streets, colorful buildings, and delightful local cuisine. Beyond its visual allure, Cinque Terre boasts a network of scenic hiking trails that connect the villages, allowing visitors to immerse themselves in nature while enjoying panoramic ocean vistas. Whether you’re exploring the quaint shops, savoring fresh seafood, or simply soaking in the sunset, Cinque Terre is a destination that promises unforgettable memories and a sense of serenity in every corner.'
+                        )">
+                    <div class="rightColInd">
+                        <img src="assets/images/destination/ItalyP1.jpg" class="cardImageStyle" alt="Cinque Terre">
+                        <div class="card-body rightCardCol">
+                            <p class="card-text text-center">Cinque Terre, Italy - Breathtaking destination,
+                                that enchants visitors...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-right"
+                    onclick="showFullView('assets/images/destination/ItalyP2.jpg', 'Amalfi Coast, Italy', 'The Amalfi Coast is a mesmerizing stretch of coastline in southern Italy, renowned for its dramatic cliffs, vibrant towns, and sparkling turquoise waters. With its picturesque villages like Positano, Amalfi, and Ravello, each boasting colorful houses that cascade down the mountainsides, the region offers a feast for the eyes. Visitors are drawn to its stunning landscapes, where lush gardens meet the sea, and winding roads reveal breathtaking views at every turn. The Amalfi Coast is not just about scenery; it also invites you to savor exquisite local cuisine, from fresh seafood to zesty limoncello, and to explore rich cultural heritage through historic churches and charming piazzas. With its blend of natural beauty, culinary delights, and warm hospitality, the Amalfi Coast is an irresistible destination that captures the heart and soul of Italy.')">
+                    <div class="rightColInd">
+                        <img src="assets/images/destination/ItalyP2.jpg" class="cardImageStyle" alt="Amalfi Coast">
+                        <div class="card-body">
+                            <p class="card-text text-center">Amalfi Coast, Italy - Mesmerizing stretch,
+                                coastline in southern...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-right"
+                    onclick="showFullView('assets/images/destination/ItalyP3.jpg', 'Lake Como, Italy', 'Lake Como, nestled in the foothills of the Italian Alps, is a stunning destination that enchants visitors with its serene beauty and timeless elegance. The lake’s shimmering waters are framed by lush green hills and majestic mountains, creating a picturesque backdrop that has inspired artists and filmmakers for centuries. Charming towns like Bellagio, Varenna, and Tremezzo offer winding cobblestone streets, vibrant gardens, and historic villas, each with its own unique character. Visitors can indulge in leisurely boat rides, explore breathtaking hiking trails, or simply relax at lakeside cafes while savoring delicious Italian cuisine. With its romantic atmosphere, cultural richness, and breathtaking landscapes, Lake Como is a perfect retreat for those seeking both relaxation and adventure in a truly idyllic setting.')">
+                    <div class="rightColInd">
+                        <img src="assets/images/destination/ItalyP3.jpg" class="cardImageStyle" alt="Lake Como">
+                        <div class="card-body">
+                            <p class="card-text text-center">Lake Como, Italy - Dramatic scenery,
+                                of the Italian Alps...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-right"
+                    onclick="showFullView('assets/images/destination/ItalyP4.jpg', 'Tuscany, Italy', 'Tuscany is a captivating region in central Italy, celebrated for its breathtaking landscapes, rich history, and artistic heritage. Rolling hills adorned with vineyards, olive groves, and cypress trees create a picturesque patchwork that changes with the seasons, offering stunning views at every turn. Charming medieval towns like Siena, San Gimignano, and Florence brim with Renaissance art and architecture, showcasing masterpieces from legends like Michelangelo and Botticelli. Visitors can indulge in the region’s world-renowned cuisine and exquisite wines, with countless opportunities for wine tasting and farm-to-table dining. The warm, inviting atmosphere, coupled with the slower pace of life, makes Tuscany an ideal escape for those seeking beauty, culture, and a taste of la dolce vita. Whether exploring the countryside by bike, wandering through art-laden museums, or simply enjoying the sunsets, Tuscany promises an unforgettable experience.')">
+                    <div class="rightColInd">
+                        <img src="assets/images/destination/ItalyP4.jpg" class="cardImageStyle" alt="Tuscany">
+                        <div class="card-body">
+                            <p class="card-text text-center">Tuscany, Italy - captivating region,
+                                in central Italy...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-right"
+                    onclick="showFullView('assets/images/destination/ItalyP5.jpg', 'Venice, Italy', 'Venice, often referred to as the City of Canals, is a mesmerizing blend of history, art, and romance. With its intricate waterways, stunning architecture, and vibrant culture, Venice captivates visitors at every turn. The serene gondola rides through narrow canals provide a unique perspective of the city’s elegant facades, while the bustling Piazza San Marco offers a glimpse into its rich past. The exquisite art found in St. Marks Basilica and the Doges Palace showcases centuries of creativity and craftsmanship. Beyond its iconic landmarks, the charm of hidden alleyways and quaint bridges invites exploration, revealing local boutiques and delightful trattorias. Whether wandering through its bustling markets or savoring gelato by the water, Venice promises an unforgettable experience that enchants every traveler.')">
+                    <div class="rightColInd">
+                        <img src="assets/images/destination/ItalyP5.jpg" class="cardImageStyle" alt="Venice">
+                        <div class="card-body">
+                            <p class="card-text text-center">Venice, Italy - Famous for canals,
+                                architecture...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript to handle card click and full view update -->
+    <script>
+        function showFullView(imageSrc, title, description) {
+            // Update the main image and text
+            document.getElementById('mainImage').src = imageSrc;
+            document.getElementById('mainDescription').innerHTML = `<strong>${title}</strong><br>${description}`;
+        }
+
+        // Set default view to Lake Como
+        window.onload = function () {
+            showFullView('assets/images/destination/ItalyP3.jpg', 'Lake Como, Italy', 'Lake Como, nestled in the foothills of the Italian Alps, is a stunning destination that enchants visitors with its serene beauty and timeless elegance. The lake’s shimmering waters are framed by lush green hills and majestic mountains, creating a picturesque backdrop that has inspired artists and filmmakers for centuries. Charming towns like Bellagio, Varenna, and Tremezzo offer winding cobblestone streets, vibrant gardens, and historic villas, each with its own unique character. Visitors can indulge in leisurely boat rides, explore breathtaking hiking trails, or simply relax at lakeside cafes while savoring delicious Italian cuisine. With its romantic atmosphere, cultural richness, and breathtaking landscapes, Lake Como is a perfect retreat for those seeking both relaxation and adventure in a truly idyllic setting.');
+        }
+    </script>
+
+    <!-- ######## Footer Starts Here ####### -->
+
+    <footer class="container-fluid footer-cont" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 foot-logo">
+
+                    <img src="assets/images/SARKAR-TRAVELS-LOGO-1.png" alt="" width="100%">
+
+
+                </div>
+                <div class="col-md-2 foot-botom ">
+                    <div class="fotter-coo ">
+                        <h5>IMPORTANT LINKS</h5>
+                        <ul>
+
+                            <a href="#">
+                                <li> <i class="fas fa-caret-right"></i> ABOUT US </li>
+                            </a>
+                            <a href="#packages">
+                                <li> <i class="fas fa-caret-right"></i> PACKAGES</li>
+                            </a>
+                            <a href="#destination">
+                                <li><i class="fas fa-caret-right"></i> Destination</li>
+                            </a>
+                            <a href="#contactus">
+                                <li><i class="fas fa-caret-right"></i> CONTACT US</li>
+                            </a>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-2 foot-botom ">
+                    <div class="fotter-coo">
+                        <h5>OUR SERVICES</h5>
+                        <ul>
+                            <li><i class="fas fa-caret-right"></i> FLIGHT</li>
+                            <li><i class="fas fa-caret-right"></i> HOTEL</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 foot-botom">
+                    <div class=" fotter-coo  ">
+                        <h5>HEAD OFFICE</h5>
+                        <ul>
+                            <li style="font-size: 16px;"><i class="fas fa-map-marker-alt"></i> 14/26 Shahjahan Road,
+                                Town Hall, Mohammadpur, Dhaka-1207 </li>
+                            <li style="font-size: 16px;"><i class="fas fa-mobile-alt"></i> +8801711600693 </li>
+                            <li style="font-size: 16px;"><i class="far fa-envelope"></i> sarkartravels693@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <div class="copy">
+        <div class="container">
+            <a href="http://sarkartravelsbd.com/">2024 &copy; Sarkar Travels | All Rights Reserved</a>
+
+            <span>
+                <a href="https://www.youtube.com/@SarkarTravels-o1i"><i class="fab fa-youtube"></i></a>
+                <a><i class="fab fa-google-plus-g"></i></a>
+                <a><i class="fab fa-pinterest-p"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/sarkertravelsbd71/" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+            </span>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- paragraph about beauty of Venice or why we can visit Venice -->
+
+
+
+
+
+
+
+
 
 
 </body>
+
 </html>
