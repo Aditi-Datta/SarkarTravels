@@ -804,6 +804,24 @@ section#packages .section-heading {
 
 
 
+.desContainer {
+  display: inline-block; /* Ensures the container only takes up as much space as the image */
+  overflow: hidden; /* Hides the part of the image that overflows the container */
+  /* position: relative; */
+}
+
+.desContainer img {
+  display: block; /* Removes any extra space below the image */
+  transition: transform 0.3s ease; /* Smooth transition for scaling effect */
+  
+}
+
+.desContainer:hover img {
+  transform: scale(1.2); /* Scales the image to 110% on hover */
+
+}
+
+
 /* Container needed to position the overlay. Adjust the width as needed */
 
 
